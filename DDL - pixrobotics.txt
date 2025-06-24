@@ -1,0 +1,23 @@
+-- 🗑️ Elimina la base de datos si ya existe, para evitar conflictos al crearla nuevamente
+DROP DATABASE IF EXISTS pixrobotics;
+
+-- 🆕 Crea la base de datos con el nombre 'pixrobotics'
+CREATE DATABASE pixrobotics;
+
+-- 📌 Selecciona la base de datos para trabajar con ella
+USE pixrobotics;
+
+-- 📋 Crea la tabla 'productos' si no existe aún
+CREATE TABLE IF NOT EXISTS productos(
+id INT PRIMARY KEY AUTO_INCREMENT,
+title VARCHAR(100),
+price DECIMAL(10,2),
+category VARCHAR(100),
+description TEXT,
+fecha_insercion TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+-- 📝 Mostrar tablas de la base de datos
+SHOW TABLES;
+
+-- 🗂️ Mostrar productos registrados en la base de datos
+SELECT * FROM productos;
