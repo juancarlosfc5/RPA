@@ -1,0 +1,6 @@
+2025/06/21-19:14:49.785 3b8c Creating DB C:\Users\Reyes\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_developer.chrome.com_0.indexeddb.leveldb since it was missing.
+2025/06/21-19:14:49.788 3b8c Reusing MANIFEST C:\Users\Reyes\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_developer.chrome.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/21-20:47:23.286 3b8c Level-0 table #5: started
+2025/06/21-20:47:23.289 3b8c Level-0 table #5: 1887 bytes OK
+2025/06/21-20:47:23.291 3b8c Delete type=0 #3
+2025/06/21-20:47:23.292 3b8c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
